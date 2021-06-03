@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/qrmaker/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/qrmaker/static/js/main.c2ab104c.chunk.js",
+    "main.js.map": "/qrmaker/static/js/main.c2ab104c.chunk.js.map",
+    "runtime-main.js": "/qrmaker/static/js/runtime-main.7973941e.js",
+    "runtime-main.js.map": "/qrmaker/static/js/runtime-main.7973941e.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/qrmaker/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.bfc41329.chunk.js": "/qrmaker/static/js/2.bfc41329.chunk.js",
+    "static/js/2.bfc41329.chunk.js.map": "/qrmaker/static/js/2.bfc41329.chunk.js.map",
+    "static/js/3.c8de2b4e.chunk.js": "/qrmaker/static/js/3.c8de2b4e.chunk.js",
+    "static/js/3.c8de2b4e.chunk.js.map": "/qrmaker/static/js/3.c8de2b4e.chunk.js.map",
+    "index.html": "/qrmaker/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/qrmaker/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/qrmaker/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.bfc41329.chunk.js.LICENSE.txt": "/qrmaker/static/js/2.bfc41329.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7973941e.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.bfc41329.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.c2ab104c.chunk.js"
+  ]
+}
