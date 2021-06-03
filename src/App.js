@@ -10,12 +10,27 @@ function App() {
   const [delay, setDelay] = useState(1);
   const [buttonEnabled, setButtonEnabled] = useState(true);
   const [activeI, setActiveI] = useState("");
+  const [count, setCount] = useState("");
 
   const formatCodes = (codeStr) => {
     setCodes(codeStr);
     const arr = codeStr.split("\n").filter(v => v);
     console.log(arr);
     setCodeList(arr);
+  }
+
+  const countDown = () => {
+    let count = 10;
+    const cd = setInterval(() => {
+      if(count <= 0) {
+        clearInterval(cd);
+        setCount("")
+        startCycle();
+        return
+      }
+      setCount(count);
+      count -=1;
+    },1000)
   }
 
   const startCycle = () => {
@@ -51,6 +66,7 @@ function App() {
           <div style={{ padding: '1rem' }}>
             <QRcode value={activeCode}></QRcode>
           </div>
+          {count === "" ? "" : count}
           {activeI === "" ? "" : activeI + 1 }
           {activeI > 0 && <Button variant="warning" onClick={() => setActiveI("")}>Reset</Button>}
         </Row>
@@ -64,7 +80,7 @@ function App() {
         </Row>
         <Row>
           {buttonEnabled ? (
-            <Button variant="primary" onClick={startCycle} style={{ width: '100%' }}>Go!</Button>
+            <Button variant="primary" onClick={countDown} style={{ width: '100%' }}>Go!</Button>
           ) : (
             <Button variant="danger" onClick={stopInterval} style={{ width: '100%' }}>Stop</Button>
           )}
