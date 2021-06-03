@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/qrmaker/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/qrmaker/static/js/main.c2ab104c.chunk.js",
-    "main.js.map": "/qrmaker/static/js/main.c2ab104c.chunk.js.map",
+    "main.js": "/qrmaker/static/js/main.5ff1baae.chunk.js",
+    "main.js.map": "/qrmaker/static/js/main.5ff1baae.chunk.js.map",
     "runtime-main.js": "/qrmaker/static/js/runtime-main.7973941e.js",
     "runtime-main.js.map": "/qrmaker/static/js/runtime-main.7973941e.js.map",
     "static/css/2.61b4cb56.chunk.css": "/qrmaker/static/css/2.61b4cb56.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.bfc41329.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.c2ab104c.chunk.js"
+    "static/js/main.5ff1baae.chunk.js"
   ]
 }
